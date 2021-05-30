@@ -3,7 +3,7 @@ FROM jlesage/baseimage-gui:debian-10
 
 # Install Thunderbird.
 # Install hunspell-de-de.
-RUN thunderbird
+RUN thunderbird-l10n-de
 RUN hunspell-de-de
 
 # Copy the start script.
