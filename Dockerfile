@@ -2,7 +2,7 @@
 FROM jlesage/baseimage-gui:debian-10
 
 # Install xterm.
-RUN thunderbird-l10n-de
+RUN thunderbird
 
 # Copy the start script.
 COPY startapp.sh /startapp.sh
